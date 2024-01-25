@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1318C2252B492719007EE3F3 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1318C21F2B492719007EE3F3 /* SFUIText-Regular.ttf */; };
+		1318C2262B492719007EE3F3 /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1318C2202B492719007EE3F3 /* SFUIText-Light.ttf */; };
+		1318C2272B492719007EE3F3 /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1318C2212B492719007EE3F3 /* SFUIText-Heavy.ttf */; };
+		1318C2282B492719007EE3F3 /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1318C2222B492719007EE3F3 /* SFUIText-Bold.ttf */; };
+		1318C2292B492719007EE3F3 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1318C2232B492719007EE3F3 /* CustomFonts.swift */; };
+		1318C22A2B492719007EE3F3 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1318C2242B492719007EE3F3 /* SFUIText-Medium.ttf */; };
+		1318C22C2B492AF1007EE3F3 /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1318C22B2B492AF1007EE3F3 /* example.swift */; };
+		132093302B4B437D00D26899 /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 1320932F2B4B437D00D26899 /* MarqueeLabel */; };
+		132CF0522B4BD49B00630BC2 /* SaveEcoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CF0512B4BD49B00630BC2 /* SaveEcoViewController.swift */; };
+		135AE43A2B49854000416E82 /* WarfareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AE4392B49854000416E82 /* WarfareManager.swift */; };
+		13737C902B53A776009DCE9D /* RenameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13737C8F2B53A776009DCE9D /* RenameViewController.swift */; };
+		137ABD0F2B4BD23700C2F274 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137ABD0E2B4BD23700C2F274 /* InfoViewController.swift */; };
+		138220D22B4A9331003D153D /* StateMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138220D12B4A9331003D153D /* StateMapViewController.swift */; };
+		138220D42B4A9CDC003D153D /* AirAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138220D32B4A9CDC003D153D /* AirAlarmViewController.swift */; };
+		138220D72B4AC58E003D153D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 138220D62B4AC58E003D153D /* SnapKit */; settings = {ATTRIBUTES = (Required, ); }; };
+		1383C4722B48A44A00632B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4712B48A44A00632B77 /* AppDelegate.swift */; };
+		1383C4742B48A44A00632B77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4732B48A44A00632B77 /* SceneDelegate.swift */; };
+		1383C4762B48A44A00632B77 /* OkupantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4752B48A44A00632B77 /* OkupantsViewController.swift */; };
+		1383C47C2B48A44A00632B77 /* NemaOkupantiv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1383C47A2B48A44A00632B77 /* NemaOkupantiv.xcdatamodeld */; };
+		1383C47E2B48A44B00632B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1383C47D2B48A44B00632B77 /* Assets.xcassets */; };
+		1383C4922B4912F600632B77 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4912B4912F600632B77 /* MainTabBarController.swift */; };
+		1383C4942B49135D00632B77 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4932B49135D00632B77 /* DateViewController.swift */; };
+		1383C4972B491BCB00632B77 /* DateDayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4962B491BCB00632B77 /* DateDayManager.swift */; };
+		13B016292B4932E600E3A9A3 /* aa_warfare_systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B016282B4932E600E3A9A3 /* aa_warfare_systems.swift */; };
+		13B0530A2B499743000F581E /* WarfareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B053092B499743000F581E /* WarfareModel.swift */; };
+		13B4B8E22B49BF150068B48E /* personnel_units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4B8E12B49BF150068B48E /* personnel_units.swift */; };
+		13E01D9E2B49A2D80039CA93 /* armoured_fighting_vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E01D9D2B49A2D80039CA93 /* armoured_fighting_vehicles.swift */; };
+		13E01DA02B49A91C0039CA93 /* artillery_systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E01D9F2B49A91C0039CA93 /* artillery_systems.swift */; };
+		13F19AC02B52E43F001C4613 /* ShelterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F19ABF2B52E43F001C4613 /* ShelterViewController.swift */; };
+		13F672A12B4A702700C11D1F /* tanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672A02B4A702700C11D1F /* tanks.swift */; };
+		13F672A32B4A70EE00C11D1F /* mlrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672A22B4A70EE00C11D1F /* mlrs.swift */; };
+		13F672A52B4A719700C11D1F /* planes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672A42B4A719700C11D1F /* planes.swift */; };
+		13F672A72B4A742200C11D1F /* helicopters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672A62B4A742200C11D1F /* helicopters.swift */; };
+		13F672A92B4A757600C11D1F /* vehicles_fuel_tanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672A82B4A757600C11D1F /* vehicles_fuel_tanks.swift */; };
+		13F672AB2B4A762900C11D1F /* warships_cutters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672AA2B4A762900C11D1F /* warships_cutters.swift */; };
+		13F672AD2B4A76B200C11D1F /* cruise_missiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672AC2B4A76B200C11D1F /* cruise_missiles.swift */; };
+		13F672AF2B4A775500C11D1F /* uav_systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672AE2B4A775500C11D1F /* uav_systems.swift */; };
+		13F672B12B4A77D900C11D1F /* special_military_equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672B02B4A77D900C11D1F /* special_military_equip.swift */; };
+		13F672B32B4A786400C11D1F /* atgm_srbm_systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672B22B4A786400C11D1F /* atgm_srbm_systems.swift */; };
+		13F672B52B4A78EA00C11D1F /* submarines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F672B42B4A78EA00C11D1F /* submarines.swift */; };
+		13F7100A2B4AEEAD0070676A /* NezlamnistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F710092B4AEEAD0070676A /* NezlamnistViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1310DCC22B4AC62000DDC65F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1318C21F2B492719007EE3F3 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		1318C2202B492719007EE3F3 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		1318C2212B492719007EE3F3 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		1318C2222B492719007EE3F3 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		1318C2232B492719007EE3F3 /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		1318C2242B492719007EE3F3 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		1318C22B2B492AF1007EE3F3 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
+		132CF0512B4BD49B00630BC2 /* SaveEcoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveEcoViewController.swift; sourceTree = "<group>"; };
+		135AE4392B49854000416E82 /* WarfareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarfareManager.swift; sourceTree = "<group>"; };
+		13737C8F2B53A776009DCE9D /* RenameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameViewController.swift; sourceTree = "<group>"; };
+		137ABD0E2B4BD23700C2F274 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		138220D12B4A9331003D153D /* StateMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMapViewController.swift; sourceTree = "<group>"; };
+		138220D32B4A9CDC003D153D /* AirAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAlarmViewController.swift; sourceTree = "<group>"; };
+		1383C46E2B48A44A00632B77 /* NemaOkupantiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NemaOkupantiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1383C4712B48A44A00632B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1383C4732B48A44A00632B77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1383C4752B48A44A00632B77 /* OkupantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkupantsViewController.swift; sourceTree = "<group>"; };
+		1383C47B2B48A44A00632B77 /* NemaOkupantiv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NemaOkupantiv.xcdatamodel; sourceTree = "<group>"; };
+		1383C47D2B48A44B00632B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1383C4912B4912F600632B77 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1383C4932B49135D00632B77 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		1383C4962B491BCB00632B77 /* DateDayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDayManager.swift; sourceTree = "<group>"; };
+		13B016282B4932E600E3A9A3 /* aa_warfare_systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aa_warfare_systems.swift; sourceTree = "<group>"; };
+		13B053092B499743000F581E /* WarfareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarfareModel.swift; sourceTree = "<group>"; };
+		13B4B8E12B49BF150068B48E /* personnel_units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personnel_units.swift; sourceTree = "<group>"; };
+		13E01D9D2B49A2D80039CA93 /* armoured_fighting_vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = armoured_fighting_vehicles.swift; sourceTree = "<group>"; };
+		13E01D9F2B49A91C0039CA93 /* artillery_systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artillery_systems.swift; sourceTree = "<group>"; };
+		13F19ABF2B52E43F001C4613 /* ShelterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterViewController.swift; sourceTree = "<group>"; };
+		13F672A02B4A702700C11D1F /* tanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tanks.swift; sourceTree = "<group>"; };
+		13F672A22B4A70EE00C11D1F /* mlrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mlrs.swift; sourceTree = "<group>"; };
+		13F672A42B4A719700C11D1F /* planes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planes.swift; sourceTree = "<group>"; };
+		13F672A62B4A742200C11D1F /* helicopters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helicopters.swift; sourceTree = "<group>"; };
+		13F672A82B4A757600C11D1F /* vehicles_fuel_tanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicles_fuel_tanks.swift; sourceTree = "<group>"; };
+		13F672AA2B4A762900C11D1F /* warships_cutters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warships_cutters.swift; sourceTree = "<group>"; };
+		13F672AC2B4A76B200C11D1F /* cruise_missiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cruise_missiles.swift; sourceTree = "<group>"; };
+		13F672AE2B4A775500C11D1F /* uav_systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uav_systems.swift; sourceTree = "<group>"; };
+		13F672B02B4A77D900C11D1F /* special_military_equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = special_military_equip.swift; sourceTree = "<group>"; };
+		13F672B22B4A786400C11D1F /* atgm_srbm_systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atgm_srbm_systems.swift; sourceTree = "<group>"; };
+		13F672B42B4A78EA00C11D1F /* submarines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submarines.swift; sourceTree = "<group>"; };
+		13F710092B4AEEAD0070676A /* NezlamnistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NezlamnistViewController.swift; sourceTree = "<group>"; };
+		13F7AC292B4D25E8008DB4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1383C46B2B48A44A00632B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132093302B4B437D00D26899 /* MarqueeLabel in Frameworks */,
+				138220D72B4AC58E003D153D /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1318C21E2B4926F0007EE3F3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1318C2232B492719007EE3F3 /* CustomFonts.swift */,
+				1318C2222B492719007EE3F3 /* SFUIText-Bold.ttf */,
+				1318C2212B492719007EE3F3 /* SFUIText-Heavy.ttf */,
+				1318C2202B492719007EE3F3 /* SFUIText-Light.ttf */,
+				1318C2242B492719007EE3F3 /* SFUIText-Medium.ttf */,
+				1318C21F2B492719007EE3F3 /* SFUIText-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1383C4652B48A44A00632B77 = {
+			isa = PBXGroup;
+			children = (
+				1383C4702B48A44A00632B77 /* NemaOkupantiv */,
+				1383C46F2B48A44A00632B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1383C46F2B48A44A00632B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1383C46E2B48A44A00632B77 /* NemaOkupantiv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1383C4702B48A44A00632B77 /* NemaOkupantiv */ = {
+			isa = PBXGroup;
+			children = (
+				1318C22B2B492AF1007EE3F3 /* example.swift */,
+				13B016272B49318C00E3A9A3 /* Cells */,
+				1383C4952B491BBF00632B77 /* Models */,
+				1383C48B2B48A4C300632B77 /* Application */,
+				1383C48A2B48A4BA00632B77 /* Resources */,
+				1383C4892B48A4B000632B77 /* CoreData */,
+				1383C4882B48A4AA00632B77 /* Controllers */,
+			);
+			path = NemaOkupantiv;
+			sourceTree = "<group>";
+		};
+		1383C4882B48A4AA00632B77 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1383C4752B48A44A00632B77 /* OkupantsViewController.swift */,
+				1383C4912B4912F600632B77 /* MainTabBarController.swift */,
+				1383C4932B49135D00632B77 /* DateViewController.swift */,
+				138220D12B4A9331003D153D /* StateMapViewController.swift */,
+				138220D32B4A9CDC003D153D /* AirAlarmViewController.swift */,
+				13F710092B4AEEAD0070676A /* NezlamnistViewController.swift */,
+				137ABD0E2B4BD23700C2F274 /* InfoViewController.swift */,
+				132CF0512B4BD49B00630BC2 /* SaveEcoViewController.swift */,
+				13F19ABF2B52E43F001C4613 /* ShelterViewController.swift */,
+				13737C8F2B53A776009DCE9D /* RenameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1383C4892B48A4B000632B77 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1383C47A2B48A44A00632B77 /* NemaOkupantiv.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1383C48A2B48A4BA00632B77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1318C21E2B4926F0007EE3F3 /* Fonts */,
+				1383C47D2B48A44B00632B77 /* Assets.xcassets */,
+				13F7AC292B4D25E8008DB4E2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1383C48B2B48A4C300632B77 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1383C4712B48A44A00632B77 /* AppDelegate.swift */,
+				1383C4732B48A44A00632B77 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1383C4952B491BBF00632B77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				135AE4392B49854000416E82 /* WarfareManager.swift */,
+				1383C4962B491BCB00632B77 /* DateDayManager.swift */,
+				13B053092B499743000F581E /* WarfareModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13B016272B49318C00E3A9A3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				13B016282B4932E600E3A9A3 /* aa_warfare_systems.swift */,
+				13E01D9D2B49A2D80039CA93 /* armoured_fighting_vehicles.swift */,
+				13E01D9F2B49A91C0039CA93 /* artillery_systems.swift */,
+				13B4B8E12B49BF150068B48E /* personnel_units.swift */,
+				13F672A02B4A702700C11D1F /* tanks.swift */,
+				13F672A22B4A70EE00C11D1F /* mlrs.swift */,
+				13F672A42B4A719700C11D1F /* planes.swift */,
+				13F672A62B4A742200C11D1F /* helicopters.swift */,
+				13F672A82B4A757600C11D1F /* vehicles_fuel_tanks.swift */,
+				13F672AA2B4A762900C11D1F /* warships_cutters.swift */,
+				13F672AC2B4A76B200C11D1F /* cruise_missiles.swift */,
+				13F672AE2B4A775500C11D1F /* uav_systems.swift */,
+				13F672B02B4A77D900C11D1F /* special_military_equip.swift */,
+				13F672B22B4A786400C11D1F /* atgm_srbm_systems.swift */,
+				13F672B42B4A78EA00C11D1F /* submarines.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1383C46D2B48A44A00632B77 /* NemaOkupantiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1383C4852B48A44B00632B77 /* Build configuration list for PBXNativeTarget "NemaOkupantiv" */;
+			buildPhases = (
+				1383C46A2B48A44A00632B77 /* Sources */,
+				1383C46B2B48A44A00632B77 /* Frameworks */,
+				1383C46C2B48A44A00632B77 /* Resources */,
+				1310DCC22B4AC62000DDC65F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NemaOkupantiv;
+			packageProductDependencies = (
+				138220D62B4AC58E003D153D /* SnapKit */,
+				1320932F2B4B437D00D26899 /* MarqueeLabel */,
+			);
+			productName = NemaOkupantiv;
+			productReference = 1383C46E2B48A44A00632B77 /* NemaOkupantiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1383C4662B48A44A00632B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					1383C46D2B48A44A00632B77 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 1383C4692B48A44A00632B77 /* Build configuration list for PBXProject "NemaOkupantiv" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = uk;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				uk,
+			);
+			mainGroup = 1383C4652B48A44A00632B77;
+			packageReferences = (
+				138220D52B4AC58E003D153D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1320932E2B4B437D00D26899 /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
+			);
+			productRefGroup = 1383C46F2B48A44A00632B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1383C46D2B48A44A00632B77 /* NemaOkupantiv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1383C46C2B48A44A00632B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1318C2272B492719007EE3F3 /* SFUIText-Heavy.ttf in Resources */,
+				1318C22A2B492719007EE3F3 /* SFUIText-Medium.ttf in Resources */,
+				1383C47E2B48A44B00632B77 /* Assets.xcassets in Resources */,
+				1318C2262B492719007EE3F3 /* SFUIText-Light.ttf in Resources */,
+				1318C2282B492719007EE3F3 /* SFUIText-Bold.ttf in Resources */,
+				1318C2252B492719007EE3F3 /* SFUIText-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1383C46A2B48A44A00632B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1383C47C2B48A44A00632B77 /* NemaOkupantiv.xcdatamodeld in Sources */,
+				13F672AF2B4A775500C11D1F /* uav_systems.swift in Sources */,
+				135AE43A2B49854000416E82 /* WarfareManager.swift in Sources */,
+				13E01D9E2B49A2D80039CA93 /* armoured_fighting_vehicles.swift in Sources */,
+				132CF0522B4BD49B00630BC2 /* SaveEcoViewController.swift in Sources */,
+				137ABD0F2B4BD23700C2F274 /* InfoViewController.swift in Sources */,
+				13B016292B4932E600E3A9A3 /* aa_warfare_systems.swift in Sources */,
+				13F672A72B4A742200C11D1F /* helicopters.swift in Sources */,
+				1318C2292B492719007EE3F3 /* CustomFonts.swift in Sources */,
+				1383C4972B491BCB00632B77 /* DateDayManager.swift in Sources */,
+				1318C22C2B492AF1007EE3F3 /* example.swift in Sources */,
+				13F672A12B4A702700C11D1F /* tanks.swift in Sources */,
+				13F19AC02B52E43F001C4613 /* ShelterViewController.swift in Sources */,
+				13B4B8E22B49BF150068B48E /* personnel_units.swift in Sources */,
+				1383C4762B48A44A00632B77 /* OkupantsViewController.swift in Sources */,
+				13F672AB2B4A762900C11D1F /* warships_cutters.swift in Sources */,
+				13F672B12B4A77D900C11D1F /* special_military_equip.swift in Sources */,
+				1383C4922B4912F600632B77 /* MainTabBarController.swift in Sources */,
+				13B0530A2B499743000F581E /* WarfareModel.swift in Sources */,
+				138220D42B4A9CDC003D153D /* AirAlarmViewController.swift in Sources */,
+				138220D22B4A9331003D153D /* StateMapViewController.swift in Sources */,
+				1383C4722B48A44A00632B77 /* AppDelegate.swift in Sources */,
+				13E01DA02B49A91C0039CA93 /* artillery_systems.swift in Sources */,
+				1383C4942B49135D00632B77 /* DateViewController.swift in Sources */,
+				13F672AD2B4A76B200C11D1F /* cruise_missiles.swift in Sources */,
+				13F672A32B4A70EE00C11D1F /* mlrs.swift in Sources */,
+				13737C902B53A776009DCE9D /* RenameViewController.swift in Sources */,
+				13F7100A2B4AEEAD0070676A /* NezlamnistViewController.swift in Sources */,
+				13F672B32B4A786400C11D1F /* atgm_srbm_systems.swift in Sources */,
+				13F672B52B4A78EA00C11D1F /* submarines.swift in Sources */,
+				13F672A52B4A719700C11D1F /* planes.swift in Sources */,
+				13F672A92B4A757600C11D1F /* vehicles_fuel_tanks.swift in Sources */,
+				1383C4742B48A44A00632B77 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1383C4832B48A44B00632B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1383C4842B48A44B00632B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1383C4862B48A44B00632B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5F8NF33WRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NemaOkupantiv/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Для оптимального використання додатка необхідний доступ до вашого місцезнаходження.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Для оптимального використання додатка необхідний доступ до вашого місцезнаходження.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Для оптимального використання додатка необхідний доступ до вашого місцезнаходження.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.NemaOkupantiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1383C4872B48A44B00632B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5F8NF33WRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NemaOkupantiv/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Для оптимального використання додатка необхідний доступ до вашого місцезнаходження.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Для оптимального використання додатка необхідний доступ до вашого місцезнаходження.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Для оптимального використання додатка необхідний доступ до вашого місцезнаходження.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.NemaOkupantiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1383C4692B48A44A00632B77 /* Build configuration list for PBXProject "NemaOkupantiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1383C4832B48A44B00632B77 /* Debug */,
+				1383C4842B48A44B00632B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1383C4852B48A44B00632B77 /* Build configuration list for PBXNativeTarget "NemaOkupantiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1383C4862B48A44B00632B77 /* Debug */,
+				1383C4872B48A44B00632B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1320932E2B4B437D00D26899 /* XCRemoteSwiftPackageReference "MarqueeLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cbpowell/MarqueeLabel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+		138220D52B4AC58E003D153D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1320932F2B4B437D00D26899 /* MarqueeLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1320932E2B4B437D00D26899 /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
+			productName = MarqueeLabel;
+		};
+		138220D62B4AC58E003D153D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 138220D52B4AC58E003D153D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1383C47A2B48A44A00632B77 /* NemaOkupantiv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1383C47B2B48A44A00632B77 /* NemaOkupantiv.xcdatamodel */,
+			);
+			currentVersion = 1383C47B2B48A44A00632B77 /* NemaOkupantiv.xcdatamodel */;
+			path = NemaOkupantiv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1383C4662B48A44A00632B77 /* Project object */;
+}
