@@ -30,6 +30,17 @@
 		1383C4922B4912F600632B77 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4912B4912F600632B77 /* MainTabBarController.swift */; };
 		1383C4942B49135D00632B77 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4932B49135D00632B77 /* DateViewController.swift */; };
 		1383C4972B491BCB00632B77 /* DateDayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1383C4962B491BCB00632B77 /* DateDayManager.swift */; };
+		13AE96622B62DC5300F40ACF /* AirAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE96612B62DC5300F40ACF /* AirAlertManager.swift */; };
+		13AE966A2B62DC7100F40ACF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AE96692B62DC7100F40ACF /* WidgetKit.framework */; };
+		13AE966C2B62DC7100F40ACF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AE966B2B62DC7100F40ACF /* SwiftUI.framework */; };
+		13AE966F2B62DC7100F40ACF /* NemaOkupantivWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE966E2B62DC7100F40ACF /* NemaOkupantivWidgetBundle.swift */; };
+		13AE96712B62DC7100F40ACF /* NemaOkupantivWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE96702B62DC7100F40ACF /* NemaOkupantivWidgetLiveActivity.swift */; };
+		13AE96732B62DC7100F40ACF /* NemaOkupantivWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE96722B62DC7100F40ACF /* NemaOkupantivWidget.swift */; };
+		13AE96752B62DC7100F40ACF /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE96742B62DC7100F40ACF /* AppIntent.swift */; };
+		13AE96772B62DC7300F40ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AE96762B62DC7300F40ACF /* Assets.xcassets */; };
+		13AE967B2B62DC7300F40ACF /* NemaOkupantivWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 13AE96672B62DC7100F40ACF /* NemaOkupantivWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13AE96802B62DC8000F40ACF /* WarfareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135AE4392B49854000416E82 /* WarfareManager.swift */; };
+		13AE96812B62DCAD00F40ACF /* AirAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE96612B62DC5300F40ACF /* AirAlertManager.swift */; };
 		13B016292B4932E600E3A9A3 /* aa_warfare_systems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B016282B4932E600E3A9A3 /* aa_warfare_systems.swift */; };
 		13B0530A2B499743000F581E /* WarfareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B053092B499743000F581E /* WarfareModel.swift */; };
 		13B4B8E22B49BF150068B48E /* personnel_units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4B8E12B49BF150068B48E /* personnel_units.swift */; };
@@ -50,6 +61,16 @@
 		13F7100A2B4AEEAD0070676A /* NezlamnistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F710092B4AEEAD0070676A /* NezlamnistViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		13AE96792B62DC7300F40ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1383C4662B48A44A00632B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13AE96662B62DC7100F40ACF;
+			remoteInfo = NemaOkupantivWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		1310DCC22B4AC62000DDC65F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,6 +80,17 @@
 			files = (
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AE967F2B62DC7300F40ACF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				13AE967B2B62DC7300F40ACF /* NemaOkupantivWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -86,6 +118,16 @@
 		1383C4912B4912F600632B77 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		1383C4932B49135D00632B77 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		1383C4962B491BCB00632B77 /* DateDayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDayManager.swift; sourceTree = "<group>"; };
+		13AE96612B62DC5300F40ACF /* AirAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAlertManager.swift; sourceTree = "<group>"; };
+		13AE96672B62DC7100F40ACF /* NemaOkupantivWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NemaOkupantivWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AE96692B62DC7100F40ACF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		13AE966B2B62DC7100F40ACF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		13AE966E2B62DC7100F40ACF /* NemaOkupantivWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemaOkupantivWidgetBundle.swift; sourceTree = "<group>"; };
+		13AE96702B62DC7100F40ACF /* NemaOkupantivWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemaOkupantivWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		13AE96722B62DC7100F40ACF /* NemaOkupantivWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemaOkupantivWidget.swift; sourceTree = "<group>"; };
+		13AE96742B62DC7100F40ACF /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		13AE96762B62DC7300F40ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13AE96782B62DC7300F40ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B016282B4932E600E3A9A3 /* aa_warfare_systems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aa_warfare_systems.swift; sourceTree = "<group>"; };
 		13B053092B499743000F581E /* WarfareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarfareModel.swift; sourceTree = "<group>"; };
 		13B4B8E12B49BF150068B48E /* personnel_units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personnel_units.swift; sourceTree = "<group>"; };
@@ -117,6 +159,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13AE96642B62DC7100F40ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AE966C2B62DC7100F40ACF /* SwiftUI.framework in Frameworks */,
+				13AE966A2B62DC7100F40ACF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				1383C4702B48A44A00632B77 /* NemaOkupantiv */,
+				13AE966D2B62DC7100F40ACF /* NemaOkupantivWidget */,
+				13AE96682B62DC7100F40ACF /* Frameworks */,
 				1383C46F2B48A44A00632B77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				1383C46E2B48A44A00632B77 /* NemaOkupantiv.app */,
+				13AE96672B62DC7100F40ACF /* NemaOkupantivWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,8 +267,31 @@
 				135AE4392B49854000416E82 /* WarfareManager.swift */,
 				1383C4962B491BCB00632B77 /* DateDayManager.swift */,
 				13B053092B499743000F581E /* WarfareModel.swift */,
+				13AE96612B62DC5300F40ACF /* AirAlertManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		13AE96682B62DC7100F40ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13AE96692B62DC7100F40ACF /* WidgetKit.framework */,
+				13AE966B2B62DC7100F40ACF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13AE966D2B62DC7100F40ACF /* NemaOkupantivWidget */ = {
+			isa = PBXGroup;
+			children = (
+				13AE966E2B62DC7100F40ACF /* NemaOkupantivWidgetBundle.swift */,
+				13AE96702B62DC7100F40ACF /* NemaOkupantivWidgetLiveActivity.swift */,
+				13AE96722B62DC7100F40ACF /* NemaOkupantivWidget.swift */,
+				13AE96742B62DC7100F40ACF /* AppIntent.swift */,
+				13AE96762B62DC7300F40ACF /* Assets.xcassets */,
+				13AE96782B62DC7300F40ACF /* Info.plist */,
+			);
+			path = NemaOkupantivWidget;
 			sourceTree = "<group>";
 		};
 		13B016272B49318C00E3A9A3 /* Cells */ = {
@@ -250,10 +327,12 @@
 				1383C46B2B48A44A00632B77 /* Frameworks */,
 				1383C46C2B48A44A00632B77 /* Resources */,
 				1310DCC22B4AC62000DDC65F /* Embed Frameworks */,
+				13AE967F2B62DC7300F40ACF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				13AE967A2B62DC7300F40ACF /* PBXTargetDependency */,
 			);
 			name = NemaOkupantiv;
 			packageProductDependencies = (
@@ -264,6 +343,23 @@
 			productReference = 1383C46E2B48A44A00632B77 /* NemaOkupantiv.app */;
 			productType = "com.apple.product-type.application";
 		};
+		13AE96662B62DC7100F40ACF /* NemaOkupantivWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AE967C2B62DC7300F40ACF /* Build configuration list for PBXNativeTarget "NemaOkupantivWidgetExtension" */;
+			buildPhases = (
+				13AE96632B62DC7100F40ACF /* Sources */,
+				13AE96642B62DC7100F40ACF /* Frameworks */,
+				13AE96652B62DC7100F40ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NemaOkupantivWidgetExtension;
+			productName = NemaOkupantivWidgetExtension;
+			productReference = 13AE96672B62DC7100F40ACF /* NemaOkupantivWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,11 +367,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					1383C46D2B48A44A00632B77 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					13AE96662B62DC7100F40ACF = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -297,6 +396,7 @@
 			projectRoot = "";
 			targets = (
 				1383C46D2B48A44A00632B77 /* NemaOkupantiv */,
+				13AE96662B62DC7100F40ACF /* NemaOkupantivWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +412,14 @@
 				1318C2262B492719007EE3F3 /* SFUIText-Light.ttf in Resources */,
 				1318C2282B492719007EE3F3 /* SFUIText-Bold.ttf in Resources */,
 				1318C2252B492719007EE3F3 /* SFUIText-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13AE96652B62DC7100F40ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AE96772B62DC7300F40ACF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +439,7 @@
 				13B016292B4932E600E3A9A3 /* aa_warfare_systems.swift in Sources */,
 				13F672A72B4A742200C11D1F /* helicopters.swift in Sources */,
 				1318C2292B492719007EE3F3 /* CustomFonts.swift in Sources */,
+				13AE96622B62DC5300F40ACF /* AirAlertManager.swift in Sources */,
 				1383C4972B491BCB00632B77 /* DateDayManager.swift in Sources */,
 				1318C22C2B492AF1007EE3F3 /* example.swift in Sources */,
 				13F672A12B4A702700C11D1F /* tanks.swift in Sources */,
@@ -358,7 +467,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		13AE96632B62DC7100F40ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AE966F2B62DC7100F40ACF /* NemaOkupantivWidgetBundle.swift in Sources */,
+				13AE96802B62DC8000F40ACF /* WarfareManager.swift in Sources */,
+				13AE96752B62DC7100F40ACF /* AppIntent.swift in Sources */,
+				13AE96812B62DCAD00F40ACF /* AirAlertManager.swift in Sources */,
+				13AE96732B62DC7100F40ACF /* NemaOkupantivWidget.swift in Sources */,
+				13AE96712B62DC7100F40ACF /* NemaOkupantivWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13AE967A2B62DC7300F40ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13AE96662B62DC7100F40ACF /* NemaOkupantivWidgetExtension */;
+			targetProxy = 13AE96792B62DC7300F40ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1383C4832B48A44B00632B77 /* Debug */ = {
@@ -483,10 +613,11 @@
 		1383C4862B48A44B00632B77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 5F8NF33WRR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NemaOkupantiv/Resources/Info.plist;
@@ -504,7 +635,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = code.NemaOkupantiv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -519,10 +650,11 @@
 		1383C4872B48A44B00632B77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 5F8NF33WRR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NemaOkupantiv/Resources/Info.plist;
@@ -540,7 +672,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = code.NemaOkupantiv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -549,6 +681,62 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		13AE967D2B62DC7300F40ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F8NF33WRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NemaOkupantivWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NemaOkupantivWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.NemaOkupantiv.NemaOkupantivWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13AE967E2B62DC7300F40ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F8NF33WRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NemaOkupantivWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NemaOkupantivWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.NemaOkupantiv.NemaOkupantivWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -569,6 +757,15 @@
 			buildConfigurations = (
 				1383C4862B48A44B00632B77 /* Debug */,
 				1383C4872B48A44B00632B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AE967C2B62DC7300F40ACF /* Build configuration list for PBXNativeTarget "NemaOkupantivWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13AE967D2B62DC7300F40ACF /* Debug */,
+				13AE967E2B62DC7300F40ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
